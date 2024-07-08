@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/eventFragment">
+
+    <fragment
+        android:id="@+id/eventFragment"
+        android:name="com.example.concertapp.EventFragment"
+        android:label="Event Fragment" />
+
+    <fragment
+        android:id="@+id/pesananFragment"
+        android:name="com.example.concertapp.PesananFragment"
+        android:label="Pesanan Fragment" />
+
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.concertapp.UserFragment"
+        android:label="User Fragment" />
+
+</navigation>

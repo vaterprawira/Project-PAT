@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ConcertApp</string>
+    <string name="hello_world">Hello World</string>
+    <string-array name="kategori_tiket_array">
+        <item>VIP</item>
+        <item>Regular</item>
+        <item>Economy</item>
+    </string-array>
+</resources>
